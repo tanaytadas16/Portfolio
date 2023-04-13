@@ -141,10 +141,9 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "Jan 2021 - Feb 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            " Created consumer electronic retail applications by Salesforce Lightning to drive sales and analyze performance metrics Implemented new Salesforce features and functionalities",
+            "Analyzed customer feedback and sales data to optimize application usability",
+            "Worked collaboratively with team of developers to generate a new software platform and also improving system performance and efficiency",
         ],
     },
 ];
