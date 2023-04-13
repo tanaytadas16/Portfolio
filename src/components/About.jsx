@@ -6,26 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
-const fadeIn = (direction, type, delay, duration) => {
-    return {
-        hidden: {
-            x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
-            y: direction === "up" ? 100 : direction === "down" ? -100 : 0,
-            opacity: 0,
-        },
-        show: {
-            x: 0,
-            y: 0,
-            opacity: 1,
-            transition: {
-                type: type,
-                delay: delay,
-                duration: duration,
-                ease: "easeOut",
-            },
-        },
-    };
-};
+import { fadeIn } from "../utils/motion";
 const ServiceCard = ({ index, title, icon }) => {
     return (
         <Tilt className="xs:w-[250px] w-full">
@@ -47,7 +28,6 @@ const ServiceCard = ({ index, title, icon }) => {
                     </h3>
                 </div>
             </motion.div>
-            <p>{title}</p>
         </Tilt>
     );
 };
@@ -55,15 +35,12 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
     return (
         <>
-            <motion.div variants={textVariant()}>
+            <motion.div variants={textVariant()} id="about">
                 <p className={styles.sectionSubText}>Introduction</p>
                 <h2 className={styles.sectionHeadText}>Overview.</h2>
             </motion.div>
             <motion.p
                 variants={fadeIn("", "", 0.1, 1)}
-                // initial={{ opacity: 0, scale: 0.5 }}
-                // animate={{ opacity: 1, scale: 1 }}
-                // transition={{ duration: 0.5 }}
                 className="mt-4 text-secondary text-[17px] max-w-3xl leading-9"
             >
                 I'm a skilled software developer with experience in TypeScript
