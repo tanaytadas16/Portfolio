@@ -16,7 +16,7 @@ const textVariant = (delay) => {
     };
 };
 
-export const fadeIn = (direction, type, delay, duration) => {
+const fadeIn = (direction, type, delay, duration) => {
     return {
         hidden: {
             x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
@@ -92,4 +92,4 @@ const staggerContainer = (staggerChildren, delayChildren) => {
     };
 };
 
-export { textVariant, staggerContainer };
+export { fadeIn, textVariant, staggerContainer };
