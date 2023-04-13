@@ -25,7 +25,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import c4i from "./company/C4i.png";
+import c4i from "./company/cfouri.png";
 import relecotech from "./company/relecotech.png";
 
 import stevens from "./education/stevens_red_logo.jpeg";
