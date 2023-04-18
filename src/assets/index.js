@@ -20,6 +20,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import graphql from "./tech/graphql.png";
+import java from "./tech/java.png";
+import spring from "./tech/spring.png";
+import vue from "./tech/vue.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -68,4 +73,9 @@ export {
     bmsit,
     c4i,
     relecotech,
+    python,
+    graphql,
+    java,
+    spring,
+    vue,
 };

@@ -28,6 +28,11 @@ import {
     c4i,
     relecotech,
     bmsit,
+    python,
+    graphql,
+    java,
+    spring,
+    vue,
 } from "../assets";
 
 export const navLinks = [
@@ -109,13 +114,33 @@ const technologies = [
         name: "git",
         icon: git,
     },
+    // {
+    //     name: "figma",
+    //     icon: figma,
+    // },
+    // {
+    //     name: "docker",
+    //     icon: docker,
+    // },
     {
-        name: "figma",
-        icon: figma,
+        name: "Python",
+        icon: python,
     },
     {
-        name: "docker",
-        icon: docker,
+        name: "GraphQL",
+        icon: graphql,
+    },
+    {
+        name: "Java",
+        icon: java,
+    },
+    {
+        name: "Spring Boot",
+        icon: spring,
+    },
+    {
+        name: "Vue JS",
+        icon: vue,
     },
 ];
 
@@ -150,28 +175,31 @@ const experiences = [
 const education = [
     {
         university: "Stevens Institute of Technology",
+        location: "Hoboken, New Jersey",
+        degree: "M.S Computer Science",
         icon: stevens,
         iconBg: "#a32639",
         date: "September 2021 - December 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            //     "Developing and maintaining web applications using React.js and other related technologies.",
+            //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            //     "Implementing responsive design and ensuring cross-browser compatibility.",
+            //     "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
 
     {
         university: "B.M.S Institute of Technology",
-
+        location: "Bangalore, India",
+        degree: "B.E Information Science",
         icon: bmsit,
         iconBg: "#E6DEDD",
         date: "August 2017 - June 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            // "Developing and maintaining web applications using React.js and other related technologies.",
+            // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            // "Implementing responsive design and ensuring cross-browser compatibility.",
+            // "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
 ];

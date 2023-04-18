@@ -35,7 +35,20 @@ const EducationCard = ({ eachEducation }) => (
         <h3 className="text-white text-[24px] font-bold">
             {eachEducation.university}
         </h3>
-
+        {/* location */}
+        <p
+            className="text-secondary text-[16px] font-semibold "
+            style={{ margin: 0 }}
+        >
+            {eachEducation.location}
+        </p>
+        {/* degree */}
+        <p
+            className=" pt-3 text-white italic text-[16px] font-semibold "
+            style={{ margin: 0 }}
+        >
+            {eachEducation.degree}
+        </p>
         {/* bullet points */}
         <ul className="mt-5 list-disc ml-5 space-y-1">
             {eachEducation.points.map((point, index) => (
