@@ -1,4 +1,4 @@
-import { logo } from "../assets";
+import { logo, marvel } from "../assets";
 import {
     mobile,
     backend,
@@ -28,11 +28,13 @@ import {
     c4i,
     relecotech,
     bmsit,
-    python,
     graphql,
     java,
     spring,
     vue,
+    houseofbooks,
+    comingsoon,
+    everydaybrunch,
 } from "../assets";
 
 export const navLinks = [
@@ -110,26 +112,10 @@ const technologies = [
         name: "Three JS",
         icon: threejs,
     },
-    {
-        name: "git",
-        icon: git,
-    },
     // {
-    //     name: "figma",
-    //     icon: figma,
+    //     name: "GraphQL",
+    //     icon: graphql,
     // },
-    // {
-    //     name: "docker",
-    //     icon: docker,
-    // },
-    {
-        name: "Python",
-        icon: python,
-    },
-    {
-        name: "GraphQL",
-        icon: graphql,
-    },
     {
         name: "Java",
         icon: java,
@@ -233,7 +219,29 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Ecommerce Application",
+        description:
+            "A comprehensive web application that allows customer to purchase electronic gadgets and home appliances.",
+        tags: [
+            {
+                name: "MERN",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Bootstrap",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Nextjs",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: comingsoon,
+        source_code_link: "https://github.com/tanaytadas16/MERN-Ecommerce-App",
+        deploy_link: "",
+    },
+    {
+        name: "House of Books",
         description:
             "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
         tags: [
@@ -250,11 +258,12 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: houseofbooks,
+        source_code_link: "https://github.com/tanaytadas16/house-of-books",
+        deploy_link: "",
     },
     {
-        name: "Job IT",
+        name: "Everyday Brunch",
         description:
             "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
         tags: [
@@ -271,29 +280,33 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: everydaybrunch,
+        source_code_link:
+            "https://github.com/tanaytadas16/everyday-brunch-group11",
+        deploy_link: "",
     },
+
     {
-        name: "Trip Guide",
+        name: "Marvelo",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A marvel fans web application to see the marvel characters,Comics, Series. You can View List of each respectively from the links below. You can search matching Character, comics, series by keywords.",
         tags: [
             {
-                name: "nextjs",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "HTML",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "CSS",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: marvel,
+        source_code_link: "https://github.com/tanaytadas16/React-Marvel-Api",
+        deploy_link: "https://tanay-react-marvelapi.netlify.app",
     },
 ];
 

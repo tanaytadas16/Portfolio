@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import linkIcon from "./linkIcon.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -20,7 +21,6 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import python from "./tech/python.png";
 import graphql from "./tech/graphql.png";
 import java from "./tech/java.png";
 import spring from "./tech/spring.png";
@@ -36,6 +36,10 @@ import relecotech from "./company/relecotech.png";
 import stevens from "./education/stevens_red_logo.jpeg";
 import bmsit from "./education/bmsit.png";
 
+import houseofbooks from "./houseofbooks.jpg";
+import comingsoon from "./comingsoon.jpeg";
+import marvel from "./marvel.jpg";
+import everydaybrunch from "./everydaybrunch.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -73,9 +77,13 @@ export {
     bmsit,
     c4i,
     relecotech,
-    python,
     graphql,
     java,
     spring,
     vue,
+    houseofbooks,
+    comingsoon,
+    marvel,
+    linkIcon,
+    everydaybrunch,
 };
