@@ -13,22 +13,11 @@ import {
     tailwind,
     nodejs,
     mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     stevens,
     c4i,
     relecotech,
     bmsit,
-    graphql,
     java,
     spring,
     vue,
@@ -259,18 +248,18 @@ const projects = [
     {
         name: "House of Books",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Web-based online book store that allows users to search, buy, rent books, and support authors.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "firebase",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "tailwindcss",
                 color: "pink-text-gradient",
             },
         ],
@@ -281,18 +270,18 @@ const projects = [
     {
         name: "Everyday Brunch",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Web application to help users to order brunch from Everyday Brunch Restaurant. The website allows users to register and search for their favourite brunch items from the restaurant’s menu and also place an order online using the website ",
         tags: [
             {
-                name: "react",
+                name: "JavaScript",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "NodeJS/Express",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "HTML/CSS",
                 color: "pink-text-gradient",
             },
         ],
