@@ -2,11 +2,28 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
-import { navLinks } from "../constants";
+import { navLinks, social_media, resume_link } from "../constants";
 import { logo, menu, close } from "../assets";
 const Navbar = () => {
     const [active, setActive] = useState("");
     const [toggle, setToggle] = useState(false);
+
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollTop = window.scrollY;
+            if (scrollTop > 100) {
+                setScrolled(true);
+            } else {
+                setScrolled(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
     return (
         <nav
             className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
@@ -33,20 +50,50 @@ const Navbar = () => {
                 </Link>
 
                 {/* desktop menu */}
-                <ul className="list-none hidden sm:flex flex-row gap-10 ">
-                    {navLinks.map((link) => (
-                        <li
-                            id={link.id}
-                            className={`${
-                                active === link.title
-                                    ? "text-white"
-                                    : "text-secondary"
-                            } hover:text-white text-[18px] font-medium cursor-pointer`}
-                        >
-                            <a href={`#${link.id}`}>{link.title}</a>
-                        </li>
-                    ))}
-                </ul>
+                <div className="flex flex-wrap gap-8">
+                    <ul className="list-none hidden sm:flex flex-row gap-10 ">
+                        {navLinks.map((link) => (
+                            <li
+                                key={link.id}
+                                className={`${
+                                    active === link.title
+                                        ? "text-white"
+                                        : "text-secondary"
+                                } hover:text-white text-[18px] font-medium cursor-pointer`}
+                            >
+                                <a href={`#${link.id}`}>{link.title}</a>
+                            </li>
+                        ))}
+                    </ul>
+
+                    {/* resume */}
+                    <p
+                        className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+                        onClick={() => window.open(resume_link, "_blank")}
+                    >
+                        Resume
+                    </p>
+
+                    {/* social media profiles */}
+                    <div className="flex flex-wrap mx-auto gap-6">
+                        {social_media.map((profile) => {
+                            return (
+                                <div
+                                    onClick={() =>
+                                        window.open(profile.url, "_blank")
+                                    }
+                                    className=" flex ml-4 w-8 h-8 cursor-pointer"
+                                >
+                                    <img
+                                        src={profile.icon}
+                                        alt="linkedin"
+                                        className=" rounded-full  object-contain"
+                                    />
+                                </div>
+                            );
+                        })}
+                    </div>
+                </div>
 
                 {/* hamburger for mobile devices */}
                 <div className="sm:hidden flex flex-1 justify-end items-center">

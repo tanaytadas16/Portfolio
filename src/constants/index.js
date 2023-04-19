@@ -35,8 +35,24 @@ import {
     houseofbooks,
     comingsoon,
     everydaybrunch,
+    linkedin,
+    github,
 } from "../assets";
 
+export const social_media = [
+    {
+        id: "linkedin",
+        icon: linkedin,
+        url: "https://www.linkedin.com/in/tanaytadas",
+    },
+    {
+        id: "github",
+        icon: github,
+        url: "https://github.com/tanaytadas16",
+    },
+];
+export const resume_link =
+    "https://drive.google.com/file/d/10r3hVl6ooQr01ISdfYqwiksKK0Q6vY2G/view ";
 export const navLinks = [
     {
         id: "about",
