@@ -141,7 +141,7 @@ const experiences = [
         company_name: "C4i TEchnologies",
         icon: c4i,
         iconBg: "white",
-        date: "June 2022 - December 2022",
+        date: "June 2022 - Present",
         points: [
             "Developing and maintaining web applications using React.js, Spring Boot and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
