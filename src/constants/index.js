@@ -41,7 +41,7 @@ export const social_media = [
     },
 ];
 export const resume_link =
-    "https://drive.google.com/file/d/10r3hVl6ooQr01ISdfYqwiksKK0Q6vY2G/view ";
+    "https://docs.google.com/document/d/1NNwo4_AFY20V21DwuY8lBByVX8zmc9h9oTtbLZXJ3FE/edit?usp=sharing";
 export const navLinks = [
     {
         id: "about",
