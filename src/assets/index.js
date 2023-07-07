@@ -43,8 +43,8 @@ import everydaybrunch from "./everydaybrunch.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
 import linkedin from "./linkedin.png";
+import goldysDen from "./goldysden.gif";
 
 export {
     logo,
@@ -89,4 +89,5 @@ export {
     linkIcon,
     everydaybrunch,
     linkedin,
+    goldysDen,
 };

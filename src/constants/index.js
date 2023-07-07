@@ -26,6 +26,7 @@ import {
     everydaybrunch,
     linkedin,
     github,
+    goldysDen,
 } from "../assets";
 
 export const social_media = [
@@ -243,6 +244,28 @@ const projects = [
         ],
         image: comingsoon,
         source_code_link: "https://github.com/tanaytadas16/MERN-Ecommerce-App",
+        deploy_link: "",
+    },
+    {
+        name: "Goldy's Den",
+        description:
+            "A Expressive Movie application Which showcase info about movies, trailers,reviews and much more.",
+        tags: [
+            {
+                name: "Spring Boot",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "React",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Java",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: goldysDen,
+        source_code_link: "https://github.com/tanaytadas16/Goldys-Den",
         deploy_link: "",
     },
     {
