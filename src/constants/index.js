@@ -27,6 +27,7 @@ import {
     linkedin,
     github,
     goldysDen,
+    invoice,
 } from "../assets";
 
 export const social_media = [
@@ -244,6 +245,28 @@ const projects = [
         ],
         image: comingsoon,
         source_code_link: "https://github.com/tanaytadas16/MERN-Ecommerce-App",
+        deploy_link: "",
+    },
+    {
+        name: "Invoicing Web Portal",
+        description:
+            "A SPA that allows Supplier to create and send Invoice to the client company and simultaneously receive the decision on it and has the option to print as PDF ",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "NextJS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: invoice,
+        source_code_link: "https://github.com/tanaytadas16/invoice-portal",
         deploy_link: "",
     },
     {
