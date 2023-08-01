@@ -245,7 +245,7 @@ const projects = [
         ],
         image: comingsoon,
         source_code_link: "https://github.com/tanaytadas16/MERN-Ecommerce-App",
-        deploy_link: "",
+        deploy_link: "https://mern-ecommerce-app-eight.vercel.app/",
     },
     {
         name: "Invoicing Web Portal",
