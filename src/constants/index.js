@@ -28,6 +28,7 @@ import {
     github,
     goldysDen,
     invoice,
+    calaxyLogo,
 } from "../assets";
 
 export const social_media = [
@@ -139,11 +140,19 @@ const technologies = [
 
 const experiences = [
     {
+        title: "Software Engineer",
+        company_name: "Calaxy",
+        icon: calaxyLogo,
+        iconBg: "black",
+        date: "August 2023 - Present",
+        points: [],
+    },
+    {
         title: "Full Stack developer",
         company_name: "C4i TEchnologies",
         icon: c4i,
         iconBg: "white",
-        date: "June 2022 - Present",
+        date: "June 2022 - August 2023",
         points: [
             "Developing and maintaining web applications using React.js, Spring Boot and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

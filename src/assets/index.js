@@ -46,6 +46,7 @@ import tripguide from "./tripguide.png";
 import linkedin from "./linkedin.png";
 import goldysDen from "./goldysden.gif";
 import invoice from "./invoice.png";
+import calaxyLogo from "./calaxy-logo.jpeg ";
 
 export {
     logo,
@@ -92,4 +93,5 @@ export {
     linkedin,
     goldysDen,
     invoice,
+    calaxyLogo,
 };
