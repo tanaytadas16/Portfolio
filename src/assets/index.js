@@ -40,13 +40,12 @@ import houseofbooks from "./houseofbooks.jpg";
 import comingsoon from "./comingsoon.jpeg";
 import marvel from "./marvel.jpg";
 import everydaybrunch from "./everydaybrunch.jpg";
-import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import linkedin from "./linkedin.png";
 import goldysDen from "./goldysden.gif";
 import invoice from "./invoice.png";
-import calaxyLogo from "./calaxy-logo.jpeg ";
+import calaxyLogo from "./calaxylogo.jpeg";
 
 export {
     logo,
@@ -74,7 +73,6 @@ export {
     shopify,
     starbucks,
     tesla,
-    carrent,
     jobit,
     tripguide,
     stevens,
